@@ -1,0 +1,32 @@
+.card{
+box-shadow: 0 4px 8px 0 black;
+  width: 500px;
+  align-items: center;
+  background-color: bisque;
+}
+#text_section h1{
+    font-size:40px;
+}
+#text_section p{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.nav1 .navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.nav1 .navbar li{
+    float: left;
+}
+.nav1 .navbar li a{
+    display: block;
+    color: burlywood;
+    padding: 15px 20px;
+}
+.nav1 .navbar li a:hover{
+    background-color: white;
+    color: red;
+}
