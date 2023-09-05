@@ -6,7 +6,10 @@
     position: relative;
     }
     .title{
-        padding: 10px;
+	max-width:50%;
+    position: absolute;
+	font-size : 80%;
+    overflow: hidden;
     }
     #inner {
     width: 50px;
@@ -15,6 +18,5 @@
     position: absolute;
     top: 30px; 
     margin-top: 10px;
-    
     }
     
