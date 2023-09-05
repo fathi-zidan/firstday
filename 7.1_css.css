@@ -1,0 +1,98 @@
+body{
+    background-color: navy;
+}
+.main{
+    max-width: 1000px;
+    background-color: navy;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.main .flat #R_flat{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+}
+.main .flat #R_flat:hover{
+    background-color: rgb(3, 74, 118);
+}
+.main .flat #S_flat{
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    border: 1px solid yellow;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+}
+.main .flat #S_flat:hover{
+    background-color: rgb(206, 206, 60);
+}
+.main .Round #R_round{
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: solid green;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+}
+.main .Round #R_round:hover{
+    background-color: rgb(29, 146, 29);
+}
+.main .Round #S_round{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: solid red;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+}
+.main .Round #S_round:hover{
+    background-color: rgb(145, 17, 17);
+}
+.main .Flat_Ghost #R_fg{
+    background-color: navy;
+    color: white;
+    border: 3px solid lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+}
+.main .Flat_Ghost #R_fg:hover{
+    background-color: lightcoral;
+}
+.main .Flat_Ghost #S_fg{
+    background-color: navy;
+    color: white;
+    border: 3px solid purple;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+}
+.main .Flat_Ghost #S_fg:hover{
+    background-color: purple;
+}
+.main .Round_Ghost #R_rg{
+    background-color: navy;
+    color: white;
+    border: solid yellow;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main .Round_Ghost #R_rg:hover{
+    background-color: yellow;   
+ }
+ .main .Round_Ghost #S_rg{
+    background-color: navy;
+    color: white;
+    border: solid lightgreen;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+ }
+ .main .Round_Ghost #S_rg:hover{
+    background-color: lightgreen;
+ }
